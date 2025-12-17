@@ -123,7 +123,7 @@ const Particles: React.FC<{ theme: 'dark' | 'light' }> = ({ theme }) => {
     });
   
     return (
-      <instancedMesh ref={mesh} args={[undefined, undefined, count]}>
+      <instancedMesh ref={mesh} args={[null, null, count]}>
         <dodecahedronGeometry args={[0.2, 0]} />
         <meshBasicMaterial color={particleColor} transparent opacity={0.4} />
       </instancedMesh>

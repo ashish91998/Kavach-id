@@ -109,18 +109,6 @@ export const SLIDES: SlideData[] = [
   },
   {
     id: 9,
-    label: "TEAM",
-    title: "ARCHITECTS OF SAFETY",
-    subtitle: "Deep expertise in Medicine, Tech & Ops.",
-    content: [
-      "Dr. A. Sharma (CEO): Ex-Trauma Surgeon, AIIMS.",
-      "R. Verma (CTO): Blockchain Security Specialist.",
-      "J. Doe (COO): Scaled Logistics at Swiggy Instamart."
-    ],
-    highlightColor: "#f97316" // Orange
-  },
-  {
-    id: 10,
     label: "ASK",
     title: "FUELING THE SAFETY NETWORK",
     subtitle: "Seeking ₹6 Crores Seed Round",
